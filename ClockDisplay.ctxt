@@ -10,4 +10,5 @@ comment2.target=void\ timeTick()
 comment2.text=\r\n\ Creado\ metodo\ para\ aumentar\ minuto\ a\ minuto,\ si\ las\ horas\ fuesen\ 24\ se\ pondrian\ a\ 0\ y\ si\ los\ minutos\ llegaran\ a\ 59\ pasan\ a\ ser\ 0\ y\ se\ suma\ 1\ hora\r\n
 comment3.params=
 comment3.target=java.lang.String\ getTime()
+comment3.text=\r\n\ Creado\ metodo\ para\ obtener\ el\ tiempo\ en\ el\ formato\ correcto\r\n
 numComments=4

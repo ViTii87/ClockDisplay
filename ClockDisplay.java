@@ -44,6 +44,9 @@ public class ClockDisplay
         }    
    }
    
+   /**
+    * Creado metodo para obtener el tiempo en el formato correcto
+    */
    public String getTime(){
    String tiempo="";    
    return String.format("%02d", horas) + ":" + String.format("%02d", minutos);
