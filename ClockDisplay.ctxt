@@ -8,4 +8,6 @@ comment1.text=\r\n\ Creado\ metodo\ para\ fijar\ nuestro\ reloj\ con\ horas\ y\ 
 comment2.params=
 comment2.target=void\ timeTick()
 comment2.text=\r\n\ Creado\ metodo\ para\ aumentar\ minuto\ a\ minuto,\ si\ las\ horas\ fuesen\ 24\ se\ pondrian\ a\ 0\ y\ si\ los\ minutos\ llegaran\ a\ 59\ pasan\ a\ ser\ 0\ y\ se\ suma\ 1\ hora\r\n
-numComments=3
+comment3.params=
+comment3.target=java.lang.String\ getTime()
+numComments=4

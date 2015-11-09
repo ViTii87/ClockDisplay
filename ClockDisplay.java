@@ -43,4 +43,9 @@ public class ClockDisplay
            horas = 0;
         }    
    }
+   
+   public String getTime(){
+   String tiempo="";    
+   return String.format("%02d", horas) + ":" + String.format("%02d", minutos);
+   }
 }
