@@ -24,8 +24,13 @@ public class ClockDisplay
      * Creado metodo para fijar nuestro reloj con horas y minutos
      */
    public void setTime(int hora, int mins){
-       horas = hora;
-       minutos = mins;
+       if((hora >= 0 & hora < 24) & (mins >= 0 & mins < 60)){
+           horas = hora;
+           minutos = mins;
+       }
+       else {
+           System.out.println("El formato de horas y minutos introducido no es correcto (Teien que ser positivas y las horas no mayores de 23 y minutos no mayores de 59)");
+       } 
     }
     
    /**
