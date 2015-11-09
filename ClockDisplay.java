@@ -53,7 +53,18 @@ public class ClockDisplay
     * Creado metodo para obtener el tiempo en el formato correcto
     */
    public String getTime(){
-   String tiempo="";    
-   return String.format("%02d", horas) + ":" + String.format("%02d", minutos);
+   String tiempo= horas + ":" + minutos;
+   if(horas < 10 & minutos < 10){
+       tiempo = "0" + horas + ":" + "0" + minutos;
+   }
+   else if (horas < 10){
+       tiempo = "0" + horas + ":" + minutos;
+   }else if(minutos<10){
+       tiempo = horas + ":" + "0" + minutos;
+   }
+   return tiempo;
+   //Inicialmente use esto: return String.format("%02d", horas) + ":" + String.format("%02d", minutos);
+   //Como conozco algunos metodos de la clase String que facilitan estas cosas pense en usarlo
+   //pero como no lo hemos visto en clase lo hice tambien de la otra forma.
    }
 }
