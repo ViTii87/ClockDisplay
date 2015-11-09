@@ -12,13 +12,16 @@ public class ClockDisplay
     private int minutos;
 
     /**
-     * Creamos un reloj con las horas y minutos pasados como parametros
+     * Creamos un reloj con las horas y minutos inicializados a 0
      */
-    public ClockDisplay(int hora, int mins)
+    public ClockDisplay()
     {
-        horas = hora;
-        minutos = mins;
+        horas = 0;
+        minutos = 0;
     }
 
-   
+   public void setTime(int hora, int mins){
+       horas = hora;
+       minutos = mins;
+    }
 }

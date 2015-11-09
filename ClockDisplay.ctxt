@@ -1,5 +1,7 @@
 #BlueJ class context
-comment0.params=hora\ mins
-comment0.target=ClockDisplay(int,\ int)
-comment0.text=\r\n\ Creamos\ un\ reloj\ con\ las\ horas\ y\ minutos\ pasados\ como\ parametros\r\n
-numComments=1
+comment0.params=
+comment0.target=ClockDisplay()
+comment0.text=\r\n\ Creamos\ un\ reloj\ con\ las\ horas\ y\ minutos\ inicializados\ a\ 0\r\n
+comment1.params=hora\ mins
+comment1.target=void\ setTime(int,\ int)
+numComments=2
